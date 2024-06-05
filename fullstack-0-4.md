@@ -3,7 +3,7 @@ sequenceDiagram
   participant browser
   participant server
 
-  browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note  Form data: {"content": "HTML is easy", "date": "2023-3-7"}
+  browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note  Form data: {"content": "C++ is difficult", "date": "2023-3-7"}
   activate server
 
   Note left of server: The server executes the JavaScript code that adds the new note to the JSON data
